@@ -1,2 +1,2 @@
 # internet_redes_seguranca
-Repositorio para a diciplina de internet e redes com segurança da informacao
+Repositorio para o Módulo Administração de Redes
