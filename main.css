@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/*
+    Configuração de tela
+
+smartfone 600 px 
+tablet 769 px
+desktop 992 até 1200 px
+
+*/
+
+@media screen and (min-width: 668px) {
+
+
+    i#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu>ul>li {
+        display: inline-block;
+    }
+
+    main {
+        width: 668px;
+    }
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+html {
+    /*width: 100vh;*/
+    background-color: aliceblue;
+}
+
+body {
+    /*background: url(back-phone.jpg) no-repeat;*/
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    background-color: rgba(97, 141, 141, 0.195);
+    width: 90vw;
+    margin: auto;
+    border-radius: 05px;
+    padding: 05px;
+}
+
+h1 {
+    color: antiquewhite;
+    text-align: center;
+    text-shadow: 3px 3px 0px black;
+    padding: 10px;
+}
+
+h2 {
+    padding: 05px;
+}
+
+/*Criar a configuração do menu burguer*/
+i#burger {
+    background-color: rgba(205, 235, 10, 0.881);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burger>a:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Criar a configuração do menu burguer*/
+
+/*Criando menu e configuração para o menu burguer*/
+menu {
+    display: none;
+    /**/
+}
+
+menu>ul {
+    list-style-type: none;
+    padding: 02px;
+    list-style-type: none;
+    background-color: rgba(128, 128, 128, 0.464);
+}
+
+menu li {
+    display: inline-block;
+    padding: 02px;
+    /*devido ao nome dos link o espaço é menor que o previsto*/
+
+}
+
+menu>ul>li>a {
+    display: block;
+    padding: 02px;
+    text-decoration: none;
+    /*Será movido no link na parte de baixo*/
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.464);
+    color: white;
+}
+
+menu>ul>li>a:hover {
+    background-color: gray;
+}
+
+/*Criando menu e configuração para o menu burguer*/
+main {
+    width: 90vw;
+   
+    border-radius: 05px;
+    padding: 05px;
+
+    /*width: ;*/
+    background-color: #233dff50;
+    margin: auto;
+
+    border-radius: 05px;
+    padding: 05px;
+}
+
+article>h2 {
+    padding-bottom: 20px;
+    width: 90vw;
+    /*width: 768px;*/
+    display: block;
+    margin: auto;
+    /*background-color: #233eff;*/
+}
+
+article>p {
+
+    padding: 05px;
+    text-align: justify;
+    text-indent: 10px;
+    /*width: auto;*/
+    margin-bottom: 10px;
+}
+
+img {
+    margin: auto;
+}
+
