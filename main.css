@@ -9,7 +9,7 @@ desktop 992 até 1200 px
 
 */
 
-@media screen and (min-width: 668px) {
+@media screen and (min-width: 768px) {
 
 
     i#burger {
@@ -25,7 +25,7 @@ desktop 992 até 1200 px
     }
 
     main {
-        width: 668px;
+        width: 768px;
     }
 }
 
@@ -121,14 +121,13 @@ menu>ul>li>a:hover {
 /*Criando menu e configuração para o menu burguer*/
 main {
     width: 90vw;
-
     border-radius: 05px;
     padding: 05px;
 
     /*width: ;*/
     background-color: #233dff50;
     margin: auto;
-    
+
     border-radius: 05px;
     padding: 05px;
 }
