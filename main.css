@@ -70,8 +70,8 @@ h2 {
 /*Criar a configuração do menu burguer*/
 i#burger {
     background-color: rgba(205, 235, 10, 0.881);
-    display: block;
     color: white;
+    display: block;
     text-align: center;
     padding: 10px;
     cursor: pointer;
@@ -121,14 +121,14 @@ menu>ul>li>a:hover {
 /*Criando menu e configuração para o menu burguer*/
 main {
     width: 90vw;
-   
+
     border-radius: 05px;
     padding: 05px;
 
     /*width: ;*/
     background-color: #233dff50;
     margin: auto;
-
+    
     border-radius: 05px;
     padding: 05px;
 }
@@ -154,4 +154,3 @@ article>p {
 img {
     margin: auto;
 }
-
