@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url();
+
 /*
     Configuração de tela
 
@@ -29,8 +31,9 @@ desktop 992 até 1200 px
     }
 }
 
+/*Altera as fontes inserir uma fonte externa*/
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-family: Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
 
@@ -48,6 +51,8 @@ body {
     background-position: center center;
 }
 
+
+/*Primeira para ser configurada, como o cabeçalho da pagina*/
 header {
     background-color: rgba(97, 141, 141, 0.195);
     width: 90vw;
@@ -84,13 +89,18 @@ i#burger>a:hover {
 
 /*Criar a configuração do menu burguer*/
 
+
+
 /*Criando menu e configuração para o menu burguer*/
 menu {
-    display: none;
+    /*display: none;*/
+    display: flex;
+    align-items: center;
     /**/
 }
 
 menu>ul {
+    display: flex;
     list-style-type: none;
     padding: 02px;
     list-style-type: none;
