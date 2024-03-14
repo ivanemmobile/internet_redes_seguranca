@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo-mq.css">
+    <link rel="stylesheet" href="estilo-novo.css">
+
+    <title>Menu_Repositorio</title>
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>Meu Site-Responsivo</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clikMenu()">density_small</span>
+        <menu id="itens">
+
+            <ul>
+                <li><a href="index.html">HEDY LAMARR</a></li>
+                <li><a href="topologiaderede.html">TOPOLOGIA</a></li>
+                <li><a href="#">WIFI</a></li>
+                <li><a href="#">COMUTADOR</a></li>
+                <li><a href="blackbox.html">BLACKBOX</a></li>
+                <li><a href="#">PYTHON</a></li>
+                <li><a href="#">C SHARP</a></li>
+                <li><a href="#">JAVA SCRIPTS</a></li>
+                <li><a href="#">PRE PROJETO</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+
+        <article>
+            <h2>BLACKBOX</h2>
+            <p>
+                O Blackbox.AI é um aplicativo inovador que utiliza inteligência artificial para fornecer insights
+                valiosos sobre a saúde mental. Desenvolvido para dispositivos móveis, ele oferece uma abordagem única
+                para o autoconhecimento e o bem-estar emocional. O aplicativo funciona registrando e analisando as
+                interações do usuário, como mensagens de texto, chamadas telefônicas e uso de redes sociais, para
+                identificar padrões comportamentais e emoções subjacentes. Com esses dados, o Blackbox.AI oferece
+                sugestões personalizadas para melhorar o equilíbrio emocional e o gerenciamento do estresse. Além disso,
+                o aplicativo prioriza a privacidade do usuário, garantindo a segurança e a confidencialidade dos dados
+                coletados. Com sua abordagem inovadora e foco na saúde mental, o Blackbox.AI está se destacando como uma
+                ferramenta poderosa para promover o bem-estar emocional na era digital.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ut eaque hic ea ullam sint. Aliquid quasi,
+                nemo enim voluptatibus eum molestias,
+                inventore sequi odit tempore ad ipsum debitis unde laboriosam.
+            </p>
+        </article>
+
+    </main>
+    <script>
+        /*
+            function clikMenu() {
+            itens.style.display = 'block'
+        }
+
+        ----------------------------------
+                function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        */
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo-mq.css">
+    <link rel="stylesheet" href="estilo-novo.css">
+
+    <title>Menu_Repositorio</title>
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>Meu Site-Responsivo</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clikMenu()">density_small</span>
+        <menu id="itens">
+
+            <ul>
+                <li><a href="index.html">HEDY LAMARR</a></li>
+                <li><a href="topologiaderede.html">TOPOLOGIA</a></li>
+                <li><a href="#">WIFI</a></li>
+                <li><a href="#">COMUTADOR</a></li>
+                <li><a href="blackbox.html">BLACKBOX</a></li>
+                <li><a href="#">PYTHON</a></li>
+                <li><a href="#">C SHARP</a></li>
+                <li><a href="#">JAVA SCRIPTS</a></li>
+                <li><a href="#">PRE PROJETO</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+
+        <article>
+            <h2>TOPOLOGIA DE REDE</h2>
+            <p>
+                A topologia de rede refere-se à estrutura física ou lógica de como os dispositivos de uma rede estão
+                conectados entre si. Ela define como os nós (como computadores, servidores, roteadores, etc.) são
+                organizados e como a comunicação é estabelecida entre eles. Existem diferentes tipos de topologias de
+                rede, incluindo:
+
+                1. **Topologia em Estrela**: Nessa configuração, todos os dispositivos estão conectados a um ponto
+                central, como um switch ou hub. Cada dispositivo tem uma conexão direta com esse ponto central. Se um
+                dispositivo falhar, geralmente não afetará o restante da rede, exceto para o dispositivo com defeito.
+
+                2. **Topologia em Anel**: Os dispositivos são conectados em um loop fechado, onde cada dispositivo está
+                conectado ao dispositivo vizinho, formando um anel. Os dados são transmitidos em uma direção em torno do
+                anel até alcançar o destino. Se um dispositivo falhar, pode interromper toda a comunicação na rede.
+
+                3. **Topologia em Barramento**: Nesta configuração, todos os dispositivos estão conectados a um único
+                cabo, chamado de barramento. Os dados são transmitidos ao longo deste cabo e cada dispositivo determina
+                se a mensagem é destinada a ele. Se o cabo central falhar, toda a rede pode ser interrompida.
+
+                4. **Topologia em Malha**: Cada dispositivo está conectado a todos os outros dispositivos na rede. Isso
+                oferece redundância e pode melhorar a confiabilidade, pois se um caminho estiver bloqueado ou um
+                dispositivo falhar, ainda haverá outras rotas para a comunicação.
+
+                5. **Topologia em Árvore**: Essa topologia é uma combinação da topologia de barramento e de estrela. Os
+                dispositivos são organizados hierarquicamente, com um ponto central conectado a outros pontos centrais e
+                assim por diante. É comumente usado em grandes redes, como redes de empresas.
+
+                A escolha da topologia de rede depende dos requisitos específicos da organização, como tamanho da rede,
+                custo, confiabilidade e escalabilidade. Cada topologia tem suas vantagens e desvantagens, e a seleção
+                adequada pode impactar o desempenho e a eficiência da rede como um todo.
+            </p>
+
+            <p>
+                Embora sua
+                invenção não tenha sido reconhecida imediatamente, seu trabalho foi posteriormente valorizado e ela
+                recebeu diversos prêmios e honrarias por suas contribuições para a ciência. Lamarr faleceu em 2000, aos
+                85 anos, deixando um legado duradouro como uma das primeiras mulheres a se destacar tanto na indústria
+                do entretenimento quanto na área da tecnologia.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ut eaque hic ea ullam sint. Aliquid quasi,
+                nemo enim voluptatibus eum molestias,
+                inventore sequi odit tempore ad ipsum debitis unde laboriosam.
+            </p>
+        </article>
+
+    </main>
+    <script>
+        /*
+            function clikMenu() {
+            itens.style.display = 'block'
+        }
+
+        ----------------------------------
+                function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        */
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

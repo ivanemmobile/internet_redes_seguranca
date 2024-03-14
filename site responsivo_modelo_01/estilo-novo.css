@@ -1,0 +1,82 @@
+ @charset "UTF-8";
+
+ * {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ body,
+ html {
+     background-color: aliceblue;
+
+ }
+
+ header {
+     background-color: rgb(148, 148, 148);
+
+ }
+
+ header>h1 {
+     padding: 7px;
+     text-align: center;
+ }
+
+ /*tem que usar o i#burger para aparecer o valor*/
+ i#burger {
+     background-color: rgb(48, 48, 48);
+     color: white;
+     display: none;
+     text-align: center;
+     padding: 7px;
+     cursor: pointer;
+ }
+
+ i#burger:hover {
+     background-color: white;
+     color: black;
+ }
+
+ /*trocar block para none*/
+ menu {
+     display: none;
+ }
+
+ menu>ul {
+     list-style-type: none;
+ }
+
+ menu>ul>li>a {
+     display: block;
+     padding: 7px;
+     text-decoration: none;
+     text-align: center;
+     background-color: rgba(223, 223, 223, 0.719);
+     color: rgb(252, 252, 252);
+     border-color: 2px rgb(44, 44, 44);
+ }
+
+ menu>ul>li>a:hover {
+     background-color: gray;
+ }
+
+ main {
+     width: 90vw;
+     background-color: white;
+     margin: auto;
+     margin-top: 7px;
+     padding: 7px;
+     border-radius: 7px;
+
+ }
+
+ article>h2 {
+     padding-bottom: 17px;
+
+ }
+
+ article>p {
+     text-align: justify;
+     margin-bottom: 7px;
+     text-indent: 17px;
+ }
