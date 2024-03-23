@@ -108,6 +108,12 @@ header {
         display: block;
     }
 }
+main{
+    text-align: justify;
+    padding-top: 1.2em;
+    padding-left: 1.2em;
+    padding-right: 0.9em;
 
+}
 
 /*** FEITO POR: LARISSA V. KICH ***/

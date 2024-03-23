@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Segurança da Informação</title>
+</head>
+
+<body>
+  <h1>Insira seu Nome:</h1>
+  <!--Inicio do formulário onde colocamos o input para inserir o nome e retornar um valor no nameOutput-->
+  <input type="text" id="nameInput" />
+  <!-- <button onclick="displayName()">Coloque Aqui</button> -->
+
+  <button onclick="displayName()">Coloque Aqui</button>
+
+  <p id="nameOutput"></p>
+  <!-- Fim do formulário-->
+
+  <!-- Script para validar o nome, mostrar na tela-->
+  <script>
+    //Criar uma  função que será chamada displayName
+    function displayName() {
+      // Recebe um  valor de input e guarda em nameValue
+      var name = document.getElementById("nameInput").value;
+
+      // Retorna o valor e inclui no parágrafo com a id "nameInput"
+      document.getElementById("nameOutput").innerHTML = "Seja bem vindo pessoa, " + name + " acesse o APP!";
+    }
+  </script>
+</body>
+
+</html>

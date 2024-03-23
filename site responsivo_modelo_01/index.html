@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo-mq.css">
+    <link rel="stylesheet" href="estilo-novo.css">
+
+    <title>Menu_Repositorio</title>
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>Meu Site-Responsivo</h1>
+        <span id="burger" class="material-symbols-outlined" onclick="clikMenu()">density_small</span>
+        <menu id="itens">
+
+            <ul>
+                <li><a href="index.html">HEDY LAMARR</a></li>
+                <li><a href="topologiaderede.html">TOPOLOGIA</a></li>
+                <li><a href="#">WIFI</a></li>
+                <li><a href="#">COMUTADOR</a></li>
+                <li><a href="blackbox.html">BLACKBOX</a></li>
+                <li><a href="#">PYTHON</a></li>
+                <li><a href="#">C SHARP</a></li>
+                <li><a href="#">JAVA SCRIPTS</a></li>
+                <li><a href="#">PRE PROJETO</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+
+        <article>
+            <h2>HEDY LAMARR</h2>
+            <!--colocar uma div container e inserir imagem, display flex; align-itens center;
+            https://pt.stackoverflow.com/questions/30057/alinhar-texto-depois-de-imagem
+            -->
+            <p>
+                Hedy Lamarr, nascida Hedwig Eva Maria Kiesler em 9 de novembro de 1914 na Áustria, foi uma atriz de
+                cinema e inventora. Ela alcançou fama nos anos 1930 e 1940 por sua beleza e talento em filmes como
+                "Êxtase" (1933) e "Sansão e Dalila" (1949). No entanto, sua contribuição mais significativa veio no
+                campo da tecnologia. Durante a Segunda Guerra Mundial, Lamarr e o compositor George Antheil
+                desenvolveram um sistema de comunicação secreto chamado "espalhamento espectral", uma técnica precursora
+                da tecnologia de comunicação sem fio utilizada hoje em dia, como o Wi-Fi e o Bluetooth.
+            </p>
+
+            <p>
+                Embora sua invenção não tenha sido reconhecida imediatamente, seu trabalho foi posteriormente valorizado
+                e ela
+                recebeu diversos prêmios e honrarias por suas contribuições para a ciência. Lamarr faleceu em 2000, aos
+                85 anos, deixando um legado duradouro como uma das primeiras mulheres a se destacar tanto na indústria
+                do entretenimento quanto na área da tecnologia.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ut eaque hic ea ullam sint. Aliquid quasi,
+                nemo enim voluptatibus eum molestias,
+                inventore sequi odit tempore ad ipsum debitis unde laboriosam.
+            </p>
+        </article>
+
+    </main>
+    <script>
+        /*
+            function clikMenu() {
+            itens.style.display = 'block'
+        }
+
+        ----------------------------------
+                function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        */
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="br-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilo-mq.css">
+    <link rel="stylesheet" href="estilo-novo.css">
+    
+    <title>Menu_Repositorio</title>
+</head>
+
+<body onresize="mudouTamanho()">
+
+    <header>
+        <h1>Meu Site-Responsivo</h1>
+        <span id="burger" class="material-symbols-outlined"  onclick="clikMenu()">density_small</span>
+        <menu id="itens">
+
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVIÇO</a></li>
+                <li><a href="#">CLIENTES</a></li>
+                <li><a href="#">REDE_SOCIAL</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+
+        <article>
+            <h2> Conheça sobre Site-Responsivo</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ut eaque hic ea ullam sint. Aliquid quasi,
+                nemo enim voluptatibus eum molestias,
+                inventore sequi odit tempore ad ipsum debitis unde laboriosam.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ut eaque hic ea ullam sint. Aliquid quasi,
+                nemo enim voluptatibus eum molestias,
+                inventore sequi odit tempore ad ipsum debitis unde laboriosam.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Ut eaque hic ea ullam sint. Aliquid quasi,
+                nemo enim voluptatibus eum molestias,
+                inventore sequi odit tempore ad ipsum debitis unde laboriosam.
+            </p>
+        </article>
+
+    </main>
+    <script>
+        /*
+            function clikMenu() {
+            itens.style.display = 'block'
+        }
+
+        ----------------------------------
+                function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        */
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
+        function clikMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>
