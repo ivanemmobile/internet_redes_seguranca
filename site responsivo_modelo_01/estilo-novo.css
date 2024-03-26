@@ -24,7 +24,7 @@
 
  /*tem que usar o i#burger para aparecer o valor*/
  i#burger {
-     background-color: rgb(48, 48, 48);
+  background-color: rgb(48, 48, 48);
      color: white;
      display: none;
      text-align: center;
